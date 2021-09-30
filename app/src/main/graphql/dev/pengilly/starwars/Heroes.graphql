@@ -1,0 +1,13 @@
+query Heroes {
+    heroes {
+        id
+        name
+        ... on Droid {
+            primaryFunction
+        }
+
+        ... on Human {
+            height
+        }
+    }
+}

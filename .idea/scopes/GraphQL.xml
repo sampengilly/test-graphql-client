@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="GraphQL" pattern="file[graphql-client.app]:src/main/graphql//*" />
+</component>
